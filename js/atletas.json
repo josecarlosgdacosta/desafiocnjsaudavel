@@ -1,0 +1,444 @@
+[
+  {
+    "nome": "Alex",
+    "altura": 1.78,
+    "image":"images/alex.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 86.10,
+        "percGordura": 20.20,
+        "percMassaMagra": 39.40,
+        "cintura": 86.50,
+        "abdomem": 91.50,
+        "quadril": 105
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 87,
+        "percGordura": 22.60,
+        "percMassaMagra": 38.10,
+        "cintura": 86.50,
+        "abdomem": 91.50,
+        "quadril": 104
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Carlos Alberto",
+    "altura": 1.78,
+    "image":"images/carlos.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 89.70,
+        "percGordura": 27,
+        "percMassaMagra": 35.70,
+        "cintura": 91,
+        "abdomem": 95,
+        "quadril": 104
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 89.70,
+        "percGordura": 27,
+        "percMassaMagra": 35.70,
+        "cintura": 89,
+        "abdomem": 93,
+        "quadril": 105
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Daniel",
+    "altura": 1.69,
+    "image":"images/daniel.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 79,
+        "percGordura": 21.90,
+        "percMassaMagra": 38.80,
+        "cintura": 86,
+        "abdomem": 88,
+        "quadril": 95
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 81.90,
+        "percGordura": 21.90,
+        "percMassaMagra": 38.60,
+        "cintura": 83.50,
+        "abdomem": 86.50,
+        "quadril": 98.50
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Diego",
+    "altura": 1.71,
+    "image":"images/diego.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 67.70,
+        "percGordura": 19,
+        "percMassaMagra": 41,
+        "cintura": 77,
+        "abdomem": 80.50,
+        "quadril": 93
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 67.50,
+        "percGordura": 17.10,
+        "percMassaMagra": 42.30,
+        "cintura": 76,
+        "abdomem": 78.50,
+        "quadril": 93
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Edson",
+    "image":"images/edson.jpg",
+    "altura": 1.78,
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 107.50,
+        "percGordura": 38.20,
+        "percMassaMagra": 29.10,
+        "cintura": 114,
+        "abdomem": 117,
+        "quadril": 113
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 107.80,
+        "percGordura": 37.60,
+        "percMassaMagra": 29.40,
+        "cintura": 112.50,
+        "abdomem": 115.50,
+        "quadril": 112
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Fábio",
+    "altura": 1.85,
+    "image":"images/fabio.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 91.30,
+        "percGordura": 19.70,
+        "percMassaMagra": 38.70,
+        "cintura": 86,
+        "abdomem": 92,
+        "quadril": 103.50
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": "",
+        "percGordura": "",
+        "percMassaMagra": "",
+        "cintura": "",
+        "abdomem": "",
+        "quadril": ""
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "João",
+    "image":"images/joao.jpg",
+    "altura": 1.91,
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 106.90,
+        "percGordura": 22.80,
+        "percMassaMagra": 36.90,
+        "cintura": 81,
+        "abdomem": 96,
+        "quadril": 113
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 101.30,
+        "percGordura": 20.70,
+        "percMassaMagra": 38.20,
+        "cintura": 88.50,
+        "abdomem": 94.50,
+        "quadril": 107.50
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "José",
+    "altura": 1.81,
+    "image":"images/jose.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 75.50,
+        "percGordura": 17.70,
+        "percMassaMagra": 40.60,
+        "cintura": 78.50,
+        "abdomem": 85,
+        "quadril": 99.50
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 77.20,
+        "percGordura": 18.60,
+        "percMassaMagra": 40.10,
+        "cintura": 75.50,
+        "abdomem": 81.50,
+        "quadril": 99
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Kelton",
+    "image":"images/kelton.jpg",
+    "altura": 1.74,
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 87.70,
+        "percGordura": 29.40,
+        "percMassaMagra": 33.89,
+        "cintura": 92.50,
+        "abdomem": 96,
+        "quadril": 102
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 89.20,
+        "percGordura": 27.60,
+        "percMassaMagra": 34.90,
+        "cintura": 91.50,
+        "abdomem": 95,
+        "quadril": 103
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Marcelo",
+    "altura": 1.74,
+    "image":"images/marcelo.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 75.60,
+        "percGordura": 16.80,
+        "percMassaMagra": 41.90,
+        "cintura": 80,
+        "abdomem": 82,
+        "quadril": 110
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": "",
+        "percGordura": "",
+        "percMassaMagra": "",
+        "cintura": "",
+        "abdomem": "",
+        "quadril": ""
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Marcos",
+    "altura": 1.74,
+    "image":"images/marcos.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 85.60,
+        "percGordura": 28.10,
+        "percMassaMagra": 35.50,
+        "cintura": 94.50,
+        "abdomem": 100,
+        "quadril": 105.50
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": "",
+        "percGordura": "",
+        "percMassaMagra": "",
+        "cintura": "",
+        "abdomem": "",
+        "quadril": ""
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Marcondes",
+    "altura": 1.57,
+    "image":"images/marcondes.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": "",
+        "percGordura": "",
+        "percMassaMagra": "",
+        "cintura": "",
+        "abdomem": "",
+        "quadril": ""
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 60.50,
+        "percGordura": 22.10,
+        "percMassaMagra": 39.20,
+        "cintura": 80,
+        "abdomem": 80,
+        "quadril": 92
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Maria",
+    "altura": 1.56,
+    "image":"images/maria.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 54.50,
+        "percGordura": 35.30,
+        "percMassaMagra": 25.40,
+        "cintura": 72,
+        "abdomem": 82,
+        "quadril": 99
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 54.90,
+        "percGordura": 35.20,
+        "percMassaMagra": 25.60,
+        "cintura": 71,
+        "abdomem": 79,
+        "quadril": 98.50
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Raphael",
+    "image":"images/raphael.jpg",
+    "altura": 1.76,
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": "",
+        "percGordura": "",
+        "percMassaMagra": "",
+        "cintura": "",
+        "abdomem": "",
+        "quadril": ""
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 77,
+        "percGordura": 25.20,
+        "percMassaMagra": 36.80,
+        "cintura": 81.50,
+        "abdomem": 86,
+        "quadril": 100
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Roberson",
+    "altura": 1.70,
+    "image":"images/roberson.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 65.10,
+        "percGordura": 19,
+        "percMassaMagra": 40.20,
+        "cintura": 77,
+        "abdomem": 83,
+        "quadril": 95
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 65.60,
+        "percGordura": 21.20,
+        "percMassaMagra": 38.60,
+        "cintura": 75.50,
+        "abdomem": 81.50,
+        "quadril": 95
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Vanderli",
+    "altura": 1.63,
+    "image":"images/vanderli.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 77,
+        "percGordura": 40,
+        "percMassaMagra": 24,
+        "cintura": 84,
+        "abdomem": 91,
+        "quadril": 115
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": "",
+        "percGordura": "",
+        "percMassaMagra": "",
+        "cintura": "",
+        "abdomem": "",
+        "quadril": ""
+      }
+    ],
+    "selected": false
+  },
+  {
+    "nome": "Vinícius",
+    "altura": 1.82,
+    "image":"images/vinicius.jpg",
+    "bateria": [
+      {
+        "indice": "1ª Bateria",
+        "peso": 84.70,
+        "percGordura": 21.10,
+        "percMassaMagra": 39,
+        "cintura": 82,
+        "abdomem": 89,
+        "quadril": 104.50
+      },
+      {
+        "indice": "2ª Bateria",
+        "peso": 85,
+        "percGordura": 21.40,
+        "percMassaMagra": 38.80,
+        "cintura": 80,
+        "abdomem": 86,
+        "quadril": 103
+      }
+    ],
+    "selected": false
+  }
+]

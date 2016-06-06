@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio CNJ Saudável</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div ng-app="CnjSaudavel" ng-controller="AtletaController">
+
+    <div class="container">
+
+        <div class="page-header">
+            <h2 class="text-primary"><strong>Acompanhamento</strong></h2>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-2" ng-repeat="atleta in atletas">
+                <div class="thumbnail">
+                    <br/>
+                    <!--<img src="http://api.randomuser.me/portraits/men/49.jpg" alt=""
+                         class="center-block img-circle img-responsive"> -->
+                    <img src="{{atleta.image}}" alt=""
+                         class="center-block img-circle img-responsive">
+                    <br/>
+                    <div class="caption text-center" style="background-color: #F8F8FF">
+                        <h4>{{atleta.nome}}</h4>
+                        <!--<p><strong>Peso atual:</strong> {{atleta.bateria.$last}} Kg</p>-->
+                        <p>
+                            <button class="btn btn-primary btn-sm" ng-click="selecionarAtleta(atleta)"
+                                    ng-disabled="atleta.selected">Detalhar
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    <hr>
+    <br/>
+
+    <div class="container-fluid" ng-hide="!atletaSelecionado" id="graficos">
+        <div class="row">
+            <div class="col-md-6">
+                <highchart id="chart1" config="graficoPeso"></highchart>
+            </div>
+
+            <div class="col-md-6">
+                <highchart id="chart2" config="graficoIMC"></highchart>
+            </div>
+        </div>
+
+        <br/>
+        <hr>
+        <br/>
+
+        <div class="row">
+            <div class="col-md-6">
+                <highchart id="chart3" config="graficoRCQ"></highchart>
+            </div>
+            <div class="col-md-6">
+                <table class="table table-condensed" style="font-size: 10px">
+                    <thead>
+                    <tr class="bg-primary">
+                        <td colspan="5" style="text-align: center;"><strong>CLASSIFICAÇÃO DE RISCO PARA HOMENS</strong></td>
+                    </tr>
+                    <tr class="bg-success">
+                        <td style="text-align: center"><strong>IDADE</strong></td>
+                        <td style="text-align: center"><strong>BAIXO</strong></td>
+                        <td style="text-align: center"><strong>MODERADO</strong></td>
+                        <td style="text-align: center"><strong>ALTO</strong></td>
+                        <td style="text-align: center"><strong>MUITO ALTO</strong></td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr >
+                        <td style="text-align: center">20 a 29</td>
+                        <td style="text-align: center">< 0,83</td>
+                        <td style="text-align: center">0,83 a 0,88</td>
+                        <td style="text-align: center">0,89 a 0,94</td>
+                        <td style="text-align: center">> 0,94</td>
+                    </tr>
+                    <tr >
+                        <td style="text-align: center">30 a 39</td>
+                        <td style="text-align: center">< 0,84</td>
+                        <td style="text-align: center">0,84 a 0,91</td>
+                        <td style="text-align: center">0,92 a 0,96</td>
+                        <td style="text-align: center">> 0,96</td>
+                    </tr>
+                    <tr >
+                        <td style="text-align: center">40 a 49</td>
+                        <td style="text-align: center">< 0,88</td>
+                        <td style="text-align: center">0,88 a 0,95</td>
+                        <td style="text-align: center">0,96 a 1,00</td>
+                        <td style="text-align: center">> 1,00</td>
+                    </tr>
+                    <tr >
+                        <td style="text-align: center">50 a 59</td>
+                        <td style="text-align: center">< 0,90</td>
+                        <td style="text-align: center">0,90 a 0,96</td>
+                        <td style="text-align: center">0,97 a 1,02</td>
+                        <td style="text-align: center">> 1,02</td>
+                    </tr>
+                    <tr >
+                        <td style="text-align: center">60 a 69</td>
+                        <td style="text-align: center">< 0,91</td>
+                        <td style="text-align: center">0,91 a 0,98</td>
+                        <td style="text-align: center">0,99 a 1,03</td>
+                        <td style="text-align: center">> 1,03</td>
+                    </tr>
+                    </tbody>
+                    <thead>
+                    <tr class="bg-primary">
+                        <td colspan="5" style="text-align: center;"><strong>CLASSIFICAÇÃO DE RISCO PARA MULHERES</strong></td>
+                    </tr>
+                    <tr class="bg-success">
+                        <td style="text-align: center"><strong>IDADE</strong></td>
+                        <td style="text-align: center"><strong>BAIXO</strong></td>
+                        <td style="text-align: center"><strong>MODERADO</strong></td>
+                        <td style="text-align: center"><strong>ALTO</strong></td>
+                        <td style="text-align: center"><strong>MUITO ALTO</strong></td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr >
+                        <td style="text-align: center">20 a 29</td>
+                        <td style="text-align: center">< 0,71</td>
+                        <td style="text-align: center">0,71 a 0,77</td>
+                        <td style="text-align: center">0,78 a 0,82</td>
+                        <td style="text-align: center">> 0,82</td>
+                    </tr>
+                    <tr >
+                        <td style="text-align: center">30 a 39</td>
+                        <td style="text-align: center">< 0,72</td>
+                        <td style="text-align: center">0,72 a 0,78</td>
+                        <td style="text-align: center">0,79 a 0,84</td>
+                        <td style="text-align: center">> 0,84</td>
+                    </tr>
+                    <tr >
+                        <td style="text-align: center">40 a 49</td>
+                        <td style="text-align: center">< 0,73</td>
+                        <td style="text-align: center">0,73 a 0,79</td>
+                        <td style="text-align: center">0,80 a 0,87</td>
+                        <td style="text-align: center">> 0,87</td>
+                    </tr>
+                    <tr >
+                        <td style="text-align: center">50 a 59</td>
+                        <td style="text-align: center">< 0,74</td>
+                        <td style="text-align: center">0,74 a 0,81</td>
+                        <td style="text-align: center">0,82 a 0,88</td>
+                        <td style="text-align: center">> 0,88</td>
+                    </tr>
+                    <tr >
+                        <td style="text-align: center">60 a 69</td>
+                        <td style="text-align: center">< 0,76</td>
+                        <td style="text-align: center">0,76 a 0,83</td>
+                        <td style="text-align: center">0,84 a 0,90</td>
+                        <td style="text-align: center">> 0,90</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="node_modules/highcharts/highcharts.js"></script>
+<script type="text/javascript" src="bower_components/highcharts-ng/dist/highcharts-ng.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
