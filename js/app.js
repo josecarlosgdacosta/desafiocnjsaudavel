@@ -27,6 +27,8 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
         $scope.updateGraficoPeso();
         $scope.updateGraficoIMC();
         $scope.updateGraficoRCQ();
+        $scope.updateGraficoPercentualMassa();
+        $scope.updateGraficoPercentualGordura();
         $location.hash("graficos");
         $anchorScroll();
     };
@@ -49,7 +51,7 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
                 data: arrPesos,
                 tooltip: {
                     pointFormat: "{series.name}: {point.y}",
-                    valueSuffix: ' Kg'
+                    valueSuffix: " Kg"
                 }
             }
         );
@@ -107,6 +109,50 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
         );
     };
 
+    $scope.updateGraficoPercentualMassa = function () {
+        var dscSerie = $scope.atletaSelecionado["nome"];
+        var arrBateria = $scope.atletaSelecionado["bateria"];
+
+        var categories = [];
+        var arrPercMassaMagra = [];
+        for (var i = 0; i < arrBateria.length; i++) {
+            categories.push(arrBateria[i].indice);
+
+            var percMassaMagra = arrBateria[i].percMassaMagra;
+            arrPercMassaMagra.push(percMassaMagra);
+        }
+
+        $scope.chartPercentualMassa.xAxis[0].setCategories(categories);
+        $scope.chartPercentualMassa.addSeries(
+            {
+                name: dscSerie,
+                data: arrPercMassaMagra
+            }
+        );
+    };
+
+    $scope.updateGraficoPercentualGordura = function () {
+        var dscSerie = $scope.atletaSelecionado["nome"];
+        var arrBateria = $scope.atletaSelecionado["bateria"];
+
+        var categories = [];
+        var arrPercGordura = [];
+        for (var i = 0; i < arrBateria.length; i++) {
+            categories.push(arrBateria[i].indice);
+
+            var percMassaGordura = arrBateria[i].percGordura;
+            arrPercGordura.push(percMassaGordura);
+        }
+
+        $scope.chartPercentualGordura.xAxis[0].setCategories(categories);
+        $scope.chartPercentualGordura.addSeries(
+            {
+                name: dscSerie,
+                data: arrPercGordura
+            }
+        );
+    };
+
     $scope.graficoPeso = {
 
         options: {
@@ -116,18 +162,18 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
             tooltip: {
                 style: {
                     padding: 10,
-                    fontWeight: 'bold'
+                    fontWeight: "bold"
                 }
             }
         },
         title: {
-            text: 'Massa corporal'
+            text: "Massa corporal"
         },
         subtitle: {
             text: "Peso corporal em quilogramas (Kg)."
         },
         yAxis: {
-            title: {text: 'Peso (Kg)'},
+            title: {text: "Peso (Kg)"},
             tickInterval: 10
         },
         size: {
@@ -238,20 +284,19 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
             tooltip: {
                 style: {
                     padding: 10,
-                    fontWeight: 'bold'
+                    fontWeight: "bold"
                 }
             }
         },
         title: {
-            text: 'RELAÇÃO CINTURA X QUADRIL'
+            text: "RELAÇÃO CINTURA X QUADRIL"
         },
         subtitle: {
             text: "A relação cintura-quadril é um índice utilizado para verificar a presença de gordura na região abdominal, e constitui um elemento para prognóstico de eventos cardiovasculares em adultos."
         },
         yAxis: {
-            title: {text: 'RCQ'},
-            tickInterval: 0.5,
-            max: 2
+            title: {text: "RCQ"},
+            tickInterval: 0.5
         },
         size: {
             width: 600,
@@ -259,6 +304,70 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
         },
         func: function (chart) {
             $scope.chartRCQ = chart;
+        }
+    };
+
+    $scope.graficoPercentualMassa = {
+
+        options: {
+            chart: {
+                type: "column"
+            },
+            tooltip: {
+                style: {
+                    padding: 10,
+                    fontWeight: "bold"
+                }
+            }
+        },
+        title: {
+            text: "Massa muscular"
+        },
+        subtitle: {
+            text: "Percentual de massa muscular."
+        },
+        yAxis: {
+            title: {text: "Percentual (%)"},
+            tickInterval: 5
+        },
+        size: {
+            width: 600,
+            height: 380
+        },
+        func: function (chart) {
+            $scope.chartPercentualMassa = chart;
+        }
+    };
+
+    $scope.graficoPercentualGordura = {
+
+        options: {
+            chart: {
+                type: "column"
+            },
+            tooltip: {
+                style: {
+                    padding: 10,
+                    fontWeight: "bold"
+                }
+            }
+        },
+        title: {
+            text: "Gordura corporal"
+        },
+        subtitle: {
+            text: "Percentual de gordura corporal."
+        },
+        yAxis: {
+            title: {text: "Percentual (%)"},
+            tickInterval: 5,
+        },
+        size: {
+            width: 600,
+            height: 380
+        },
+        func: function (chart) {
+            $scope.chartPercentualGordura = chart;
         }
     };
 

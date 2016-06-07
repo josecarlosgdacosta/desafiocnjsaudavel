@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Desafio CNJ Saudável</title>
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <div ng-app="CnjSaudavel" ng-controller="AtletaController">
@@ -38,7 +39,7 @@
     </div>
 
     <br/>
-    <hr>
+    <hr class="dash">
     <br/>
 
     <div class="container-fluid" ng-hide="!atletaSelecionado" id="graficos">
@@ -53,7 +54,7 @@
         </div>
 
         <br/>
-        <hr>
+        <hr class="dash">
         <br/>
 
         <div class="row">
@@ -163,6 +164,21 @@
                 </table>
             </div>
         </div>
+
+        <br/>
+        <hr class="dash">
+        <br/>
+
+        <div class="row">
+            <div class="col-md-6">
+                <highchart id="chart4" config="graficoPercentualMassa"></highchart>
+            </div>
+
+            <div class="col-md-6">
+                <highchart id="chart5" config="graficoPercentualGordura"></highchart>
+            </div>
+        </div>
+
     </div>
 
 </div>
