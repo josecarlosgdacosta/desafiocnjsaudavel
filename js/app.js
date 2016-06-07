@@ -1,9 +1,13 @@
+var http = location.protocol;
+var slashes = http.concat("//");
+var host = slashes.concat(window.location.hostname);
+
 var cnjsaudavel = angular.module("CnjSaudavel", ["highcharts-ng"]);
 
 cnjsaudavel.service("AtletaService", ["$http", function ($http) {
     return {
         getAtletas: function () {
-            return $http.get("http://localhost/desafiocnjsaudavel/js/atletas.json");
+            return $http.get(host + "/desafiocnjsaudavel/js/atletas.json");
         }
     }
 }]);
