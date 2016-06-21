@@ -21,6 +21,15 @@
         "cintura": 86.50,
         "abdomem": 91.50,
         "quadril": 104
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 85.3,
+        "percGordura": 20.6,
+        "percMassaMagra": 39.2,
+        "cintura": 84.5,
+        "abdomem": 89,
+        "quadril": 104
       }
     ],
     "selected": false
@@ -99,6 +108,15 @@
         "cintura": 76,
         "abdomem": 78.50,
         "quadril": 93
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 65.7,
+        "percGordura": 17.8,
+        "percMassaMagra": 41.6,
+        "cintura": 76,
+        "abdomem": 78,
+        "quadril": 92
       }
     ],
     "selected": false
@@ -125,6 +143,15 @@
         "cintura": 112.50,
         "abdomem": 115.50,
         "quadril": 112
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 109.2,
+        "percGordura": 39.10,
+        "percMassaMagra": 28.50,
+        "cintura": 114.50,
+        "abdomem": 116.50,
+        "quadril": 113.50
       }
     ],
     "selected": false
@@ -151,6 +178,15 @@
         "cintura": "",
         "abdomem": "",
         "quadril": ""
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 87.1,
+        "percGordura": 21.1,
+        "percMassaMagra": 38,
+        "cintura": 84,
+        "abdomem": 90,
+        "quadril": 100
       }
     ],
     "selected": false
@@ -177,6 +213,15 @@
         "cintura": 88.50,
         "abdomem": 94.50,
         "quadril": 107.50
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 101.60,
+        "percGordura": 22.40,
+        "percMassaMagra": 37.20,
+        "cintura": 86,
+        "abdomem": 93,
+        "quadril": 108
       }
     ],
     "selected": false
@@ -202,6 +247,15 @@
         "percMassaMagra": 40.10,
         "cintura": 75.50,
         "abdomem": 81.50,
+        "quadril": 99
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 75.10,
+        "percGordura": 16.80,
+        "percMassaMagra": 41.10,
+        "cintura": 77.50,
+        "abdomem": 82,
         "quadril": 99
       }
     ],
@@ -255,6 +309,15 @@
         "cintura": "",
         "abdomem": "",
         "quadril": ""
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 76,
+        "percGordura": 19.50,
+        "percMassaMagra": 40.30,
+        "cintura": 79,
+        "abdomem": 82,
+        "quadril": 99
       }
     ],
     "selected": false
@@ -281,6 +344,15 @@
         "cintura": "",
         "abdomem": "",
         "quadril": ""
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 87.9,
+        "percGordura": 30.8,
+        "percMassaMagra": 33.9,
+        "cintura": 94,
+        "abdomem": 99,
+        "quadril": 107
       }
     ],
     "selected": false
@@ -333,6 +405,15 @@
         "cintura": 71,
         "abdomem": 79,
         "quadril": 98.50
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 54.1,
+        "percGordura": 34.9,
+        "percMassaMagra": 25.4,
+        "cintura": 72,
+        "abdomem": 80,
+        "quadril": 96.5
       }
     ],
     "selected": false
@@ -359,6 +440,15 @@
         "cintura": 81.50,
         "abdomem": 86,
         "quadril": 100
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 73.7,
+        "percGordura": 23.7,
+        "percMassaMagra": 37.5,
+        "cintura": 79.5,
+        "abdomem": 86,
+        "quadril": 101
       }
     ],
     "selected": false
@@ -385,6 +475,15 @@
         "cintura": 75.50,
         "abdomem": 81.50,
         "quadril": 95
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 65.30,
+        "percGordura": 19,
+        "percMassaMagra": 40.20,
+        "cintura": 74,
+        "abdomem": 80.5,
+        "quadril": 94.5
       }
     ],
     "selected": false
@@ -436,6 +535,15 @@
         "percMassaMagra": 38.80,
         "cintura": 80,
         "abdomem": 86,
+        "quadril": 103
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 82.30,
+        "percGordura": 17.40,
+        "percMassaMagra": 41.10,
+        "cintura": 78.50,
+        "abdomem": 86.50,
         "quadril": 103
       }
     ],
