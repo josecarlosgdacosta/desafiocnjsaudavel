@@ -29,6 +29,9 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
         $scope.updateGraficoRCQ();
         $scope.updateGraficoPercentualMassa();
         $scope.updateGraficoPercentualGordura();
+        $scope.updateGraficoCintra();
+        $scope.updateGraficoAbdomen();
+        $scope.updateGraficoQuadril();
         $location.hash("graficos");
         $anchorScroll();
     };
@@ -149,6 +152,81 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
             {
                 name: dscSerie,
                 data: arrPercGordura
+            }
+        );
+    };
+
+    $scope.updateGraficoCintra = function () {
+        var dscSerie = $scope.atletaSelecionado["nome"];
+        var arrBateria = $scope.atletaSelecionado["bateria"];
+
+        var categories = [];
+        var arrMedCintura = [];
+        for (var i = 0; i < arrBateria.length; i++) {
+            categories.push(arrBateria[i].indice);
+
+            var medCintura = arrBateria[i].cintura;
+            if (medCintura == "") {
+                medCintura = 0;
+            }
+            arrMedCintura.push(medCintura);
+        }
+
+        $scope.chartCintura.xAxis[0].setCategories(categories);
+        $scope.chartCintura.addSeries(
+            {
+                name: dscSerie,
+                data: arrMedCintura
+            }
+        );
+    };
+
+    $scope.updateGraficoAbdomen = function () {
+        var dscSerie = $scope.atletaSelecionado["nome"];
+        var arrBateria = $scope.atletaSelecionado["bateria"];
+
+        var categories = [];
+        var arrMedAbdomen = [];
+        for (var i = 0; i < arrBateria.length; i++) {
+            categories.push(arrBateria[i].indice);
+
+            var medAbdomen = arrBateria[i].abdomen;
+            if (medAbdomen == "") {
+                medAbdomen = 0;
+            }
+            arrMedAbdomen.push(medAbdomen);
+        }
+
+        $scope.chartAbdomen.xAxis[0].setCategories(categories);
+        $scope.chartAbdomen.addSeries(
+            {
+                name: dscSerie,
+                data: arrMedAbdomen
+            }
+        );
+    };
+
+    $scope.updateGraficoQuadril = function () {
+        var dscSerie = $scope.atletaSelecionado["nome"];
+        var arrBateria = $scope.atletaSelecionado["bateria"];
+
+        var categories = [];
+        var arrMedQuadril = [];
+        for (var i = 0; i < arrBateria.length; i++) {
+            categories.push(arrBateria[i].indice);
+
+            var medQuadril = arrBateria[i].quadril;
+            if (medQuadril == "") {
+                medQuadril = 0;
+            }
+            arrMedQuadril.push(medQuadril);
+        }
+
+        $scope.chartQuadril.xAxis[0].setCategories(categories);
+        $scope.chartQuadril.addSeries(
+            {
+                name: dscSerie,
+                data: arrMedQuadril
             }
         );
     };
@@ -368,6 +446,93 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
         },
         func: function (chart) {
             $scope.chartPercentualGordura = chart;
+        }
+    };
+
+    $scope.graficoCintura = {
+
+        options: {
+            tooltip: {
+                style: {
+                    padding: 10,
+                    fontWeight: "bold"
+                }
+            }
+        },
+        title: {
+            text: "Cintura"
+        },
+        subtitle: {
+            text: "Medida da cintura."
+        },
+        yAxis: {
+            title: {text: "Centímetros (cm)"},
+            tickInterval: 5,
+        },
+        size: {
+            width: 600,
+            height: 380
+        },
+        func: function (chart) {
+            $scope.chartCintura = chart;
+        }
+    };
+
+    $scope.graficoAbdomen = {
+
+        options: {
+            tooltip: {
+                style: {
+                    padding: 10,
+                    fontWeight: "bold"
+                }
+            }
+        },
+        title: {
+            text: "Abdomen"
+        },
+        subtitle: {
+            text: "Medida do abdomen."
+        },
+        yAxis: {
+            title: {text: "Centímetros (cm)"},
+            tickInterval: 1,
+        },
+        size: {
+            width: 600,
+            height: 380
+        },
+        func: function (chart) {
+            $scope.chartAbdomen = chart;
+        }
+    };
+
+    $scope.graficoQuadril = {
+
+        options: {
+            tooltip: {
+                style: {
+                    padding: 10,
+                    fontWeight: "bold"
+                }
+            }
+        },
+        title: {
+            text: "Quadril"
+        },
+        subtitle: {
+            text: "Medida do quadril."
+        },
+        yAxis: {
+            title: {text: "Centímetros (cm)"},
+            tickInterval: 1,
+        },
+        size: {
+            width: 600,
+            height: 380
+        },
+        func: function (chart) {
+            $scope.chartQuadril = chart;
         }
     };
 

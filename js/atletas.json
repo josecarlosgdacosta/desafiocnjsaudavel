@@ -10,7 +10,7 @@
         "percGordura": 20.20,
         "percMassaMagra": 39.40,
         "cintura": 86.50,
-        "abdomem": 91.50,
+        "abdomen": 91.50,
         "quadril": 105
       },
       {
@@ -19,7 +19,7 @@
         "percGordura": 22.60,
         "percMassaMagra": 38.10,
         "cintura": 86.50,
-        "abdomem": 91.50,
+        "abdomen": 91.50,
         "quadril": 104
       },
       {
@@ -28,7 +28,7 @@
         "percGordura": 20.6,
         "percMassaMagra": 39.2,
         "cintura": 84.5,
-        "abdomem": 89,
+        "abdomen": 89,
         "quadril": 104
       }
     ],
@@ -45,7 +45,7 @@
         "percGordura": 27,
         "percMassaMagra": 35.70,
         "cintura": 91,
-        "abdomem": 95,
+        "abdomen": 95,
         "quadril": 104
       },
       {
@@ -54,7 +54,7 @@
         "percGordura": 27,
         "percMassaMagra": 35.70,
         "cintura": 89,
-        "abdomem": 93,
+        "abdomen": 93,
         "quadril": 105
       }
     ],
@@ -71,7 +71,7 @@
         "percGordura": 21.90,
         "percMassaMagra": 38.80,
         "cintura": 86,
-        "abdomem": 88,
+        "abdomen": 88,
         "quadril": 95
       },
       {
@@ -80,7 +80,7 @@
         "percGordura": 21.90,
         "percMassaMagra": 38.60,
         "cintura": 83.50,
-        "abdomem": 86.50,
+        "abdomen": 86.50,
         "quadril": 98.50
       },
       {
@@ -89,7 +89,7 @@
         "percGordura": 21,
         "percMassaMagra": 39.3,
         "cintura": 82.5,
-        "abdomem": 84,
+        "abdomen": 84,
         "quadril": 94.5
       }
     ],
@@ -106,7 +106,7 @@
         "percGordura": 19,
         "percMassaMagra": 41,
         "cintura": 77,
-        "abdomem": 80.50,
+        "abdomen": 80.50,
         "quadril": 93
       },
       {
@@ -115,7 +115,7 @@
         "percGordura": 17.10,
         "percMassaMagra": 42.30,
         "cintura": 76,
-        "abdomem": 78.50,
+        "abdomen": 78.50,
         "quadril": 93
       },
       {
@@ -124,7 +124,7 @@
         "percGordura": 17.8,
         "percMassaMagra": 41.6,
         "cintura": 76,
-        "abdomem": 78,
+        "abdomen": 78,
         "quadril": 92
       }
     ],
@@ -141,7 +141,7 @@
         "percGordura": 38.20,
         "percMassaMagra": 29.10,
         "cintura": 114,
-        "abdomem": 117,
+        "abdomen": 117,
         "quadril": 113
       },
       {
@@ -150,7 +150,7 @@
         "percGordura": 37.60,
         "percMassaMagra": 29.40,
         "cintura": 112.50,
-        "abdomem": 115.50,
+        "abdomen": 115.50,
         "quadril": 112
       },
       {
@@ -159,7 +159,7 @@
         "percGordura": 39.10,
         "percMassaMagra": 28.50,
         "cintura": 114.50,
-        "abdomem": 116.50,
+        "abdomen": 116.50,
         "quadril": 113.50
       }
     ],
@@ -176,7 +176,7 @@
         "percGordura": 19.70,
         "percMassaMagra": 38.70,
         "cintura": 86,
-        "abdomem": 92,
+        "abdomen": 92,
         "quadril": 103.50
       },
       {
@@ -185,7 +185,7 @@
         "percGordura": "",
         "percMassaMagra": "",
         "cintura": "",
-        "abdomem": "",
+        "abdomen": "",
         "quadril": ""
       },
       {
@@ -194,7 +194,7 @@
         "percGordura": 21.1,
         "percMassaMagra": 38,
         "cintura": 84,
-        "abdomem": 90,
+        "abdomen": 90,
         "quadril": 100
       }
     ],
@@ -211,7 +211,7 @@
         "percGordura": 22.80,
         "percMassaMagra": 36.90,
         "cintura": 81,
-        "abdomem": 96,
+        "abdomen": 96,
         "quadril": 113
       },
       {
@@ -220,7 +220,7 @@
         "percGordura": 20.70,
         "percMassaMagra": 38.20,
         "cintura": 88.50,
-        "abdomem": 94.50,
+        "abdomen": 94.50,
         "quadril": 107.50
       },
       {
@@ -229,7 +229,7 @@
         "percGordura": 22.40,
         "percMassaMagra": 37.20,
         "cintura": 86,
-        "abdomem": 93,
+        "abdomen": 93,
         "quadril": 108
       }
     ],
@@ -246,7 +246,7 @@
         "percGordura": 17.70,
         "percMassaMagra": 40.60,
         "cintura": 78.50,
-        "abdomem": 85,
+        "abdomen": 85,
         "quadril": 99.50
       },
       {
@@ -255,7 +255,7 @@
         "percGordura": 18.60,
         "percMassaMagra": 40.10,
         "cintura": 75.50,
-        "abdomem": 81.50,
+        "abdomen": 81.50,
         "quadril": 99
       },
       {
@@ -264,7 +264,7 @@
         "percGordura": 16.80,
         "percMassaMagra": 41.10,
         "cintura": 77.50,
-        "abdomem": 82,
+        "abdomen": 82,
         "quadril": 99
       }
     ],
@@ -281,7 +281,7 @@
         "percGordura": 29.40,
         "percMassaMagra": 33.89,
         "cintura": 92.50,
-        "abdomem": 96,
+        "abdomen": 96,
         "quadril": 102
       },
       {
@@ -290,7 +290,7 @@
         "percGordura": 27.60,
         "percMassaMagra": 34.90,
         "cintura": 91.50,
-        "abdomem": 95,
+        "abdomen": 95,
         "quadril": 103
       },
       {
@@ -299,7 +299,7 @@
         "percGordura": 27.9,
         "percMassaMagra": 34.7,
         "cintura": 90.5,
-        "abdomem": 94,
+        "abdomen": 94,
         "quadril": 102
       }
     ],
@@ -316,7 +316,7 @@
         "percGordura": 16.80,
         "percMassaMagra": 41.90,
         "cintura": 80,
-        "abdomem": 82,
+        "abdomen": 82,
         "quadril": 110
       },
       {
@@ -325,7 +325,7 @@
         "percGordura": "",
         "percMassaMagra": "",
         "cintura": "",
-        "abdomem": "",
+        "abdomen": "",
         "quadril": ""
       },
       {
@@ -334,7 +334,7 @@
         "percGordura": 19.50,
         "percMassaMagra": 40.30,
         "cintura": 79,
-        "abdomem": 82,
+        "abdomen": 82,
         "quadril": 99
       }
     ],
@@ -351,7 +351,7 @@
         "percGordura": 28.10,
         "percMassaMagra": 35.50,
         "cintura": 94.50,
-        "abdomem": 100,
+        "abdomen": 100,
         "quadril": 105.50
       },
       {
@@ -360,7 +360,7 @@
         "percGordura": "",
         "percMassaMagra": "",
         "cintura": "",
-        "abdomem": "",
+        "abdomen": "",
         "quadril": ""
       },
       {
@@ -369,7 +369,7 @@
         "percGordura": 30.8,
         "percMassaMagra": 33.9,
         "cintura": 94,
-        "abdomem": 99,
+        "abdomen": 99,
         "quadril": 107
       }
     ],
@@ -386,7 +386,7 @@
         "percGordura": "",
         "percMassaMagra": "",
         "cintura": "",
-        "abdomem": "",
+        "abdomen": "",
         "quadril": ""
       },
       {
@@ -395,7 +395,7 @@
         "percGordura": 22.10,
         "percMassaMagra": 39.20,
         "cintura": 80,
-        "abdomem": 80,
+        "abdomen": 80,
         "quadril": 92
       }
     ],
@@ -412,7 +412,7 @@
         "percGordura": 35.30,
         "percMassaMagra": 25.40,
         "cintura": 72,
-        "abdomem": 82,
+        "abdomen": 82,
         "quadril": 99
       },
       {
@@ -421,7 +421,7 @@
         "percGordura": 35.20,
         "percMassaMagra": 25.60,
         "cintura": 71,
-        "abdomem": 79,
+        "abdomen": 79,
         "quadril": 98.50
       },
       {
@@ -430,7 +430,7 @@
         "percGordura": 34.9,
         "percMassaMagra": 25.4,
         "cintura": 72,
-        "abdomem": 80,
+        "abdomen": 80,
         "quadril": 96.5
       }
     ],
@@ -447,7 +447,7 @@
         "percGordura": "",
         "percMassaMagra": "",
         "cintura": "",
-        "abdomem": "",
+        "abdomen": "",
         "quadril": ""
       },
       {
@@ -456,7 +456,7 @@
         "percGordura": 25.20,
         "percMassaMagra": 36.80,
         "cintura": 81.50,
-        "abdomem": 86,
+        "abdomen": 86,
         "quadril": 100
       },
       {
@@ -465,7 +465,7 @@
         "percGordura": 23.7,
         "percMassaMagra": 37.5,
         "cintura": 79.5,
-        "abdomem": 86,
+        "abdomen": 86,
         "quadril": 101
       }
     ],
@@ -482,7 +482,7 @@
         "percGordura": 19,
         "percMassaMagra": 40.20,
         "cintura": 77,
-        "abdomem": 83,
+        "abdomen": 83,
         "quadril": 95
       },
       {
@@ -491,7 +491,7 @@
         "percGordura": 21.20,
         "percMassaMagra": 38.60,
         "cintura": 75.50,
-        "abdomem": 81.50,
+        "abdomen": 81.50,
         "quadril": 95
       },
       {
@@ -500,7 +500,7 @@
         "percGordura": 19,
         "percMassaMagra": 40.20,
         "cintura": 74,
-        "abdomem": 80.5,
+        "abdomen": 80.5,
         "quadril": 94.5
       }
     ],
@@ -517,7 +517,7 @@
         "percGordura": 40,
         "percMassaMagra": 24,
         "cintura": 84,
-        "abdomem": 91,
+        "abdomen": 91,
         "quadril": 115
       },
       {
@@ -526,7 +526,7 @@
         "percGordura": "",
         "percMassaMagra": "",
         "cintura": "",
-        "abdomem": "",
+        "abdomen": "",
         "quadril": ""
       }
     ],
@@ -543,7 +543,7 @@
         "percGordura": 21.10,
         "percMassaMagra": 39,
         "cintura": 82,
-        "abdomem": 89,
+        "abdomen": 89,
         "quadril": 104.50
       },
       {
@@ -552,7 +552,7 @@
         "percGordura": 21.40,
         "percMassaMagra": 38.80,
         "cintura": 80,
-        "abdomem": 86,
+        "abdomen": 86,
         "quadril": 103
       },
       {
@@ -561,7 +561,7 @@
         "percGordura": 17.40,
         "percMassaMagra": 41.10,
         "cintura": 78.50,
-        "abdomem": 86.50,
+        "abdomen": 86.50,
         "quadril": 103
       }
     ],
