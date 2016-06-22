@@ -29,7 +29,7 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
         $scope.updateGraficoRCQ();
         $scope.updateGraficoPercentualMassa();
         $scope.updateGraficoPercentualGordura();
-        $scope.updateGraficoCintra();
+        $scope.updateGraficoCintura();
         $scope.updateGraficoAbdomen();
         $scope.updateGraficoQuadril();
         $location.hash("graficos");
@@ -156,7 +156,7 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
         );
     };
 
-    $scope.updateGraficoCintra = function () {
+    $scope.updateGraficoCintura = function () {
         var dscSerie = $scope.atletaSelecionado["nome"];
         var arrBateria = $scope.atletaSelecionado["bateria"];
 
@@ -166,9 +166,6 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
             categories.push(arrBateria[i].indice);
 
             var medCintura = arrBateria[i].cintura;
-            if (medCintura == "") {
-                medCintura = 0;
-            }
             arrMedCintura.push(medCintura);
         }
 
@@ -191,9 +188,6 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
             categories.push(arrBateria[i].indice);
 
             var medAbdomen = arrBateria[i].abdomen;
-            if (medAbdomen == "") {
-                medAbdomen = 0;
-            }
             arrMedAbdomen.push(medAbdomen);
         }
 
@@ -216,9 +210,6 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
             categories.push(arrBateria[i].indice);
 
             var medQuadril = arrBateria[i].quadril;
-            if (medQuadril == "") {
-                medQuadril = 0;
-            }
             arrMedQuadril.push(medQuadril);
         }
 
@@ -452,6 +443,9 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
     $scope.graficoCintura = {
 
         options: {
+            chart: {
+                type: "column"
+            },
             tooltip: {
                 style: {
                     padding: 10,
@@ -481,6 +475,9 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
     $scope.graficoAbdomen = {
 
         options: {
+            chart: {
+                type: "column"
+            },
             tooltip: {
                 style: {
                     padding: 10,
@@ -510,6 +507,9 @@ cnjsaudavel.controller("AtletaController", ["$scope", "$location", "$anchorScrol
     $scope.graficoQuadril = {
 
         options: {
+            chart: {
+                type: "column"
+            },
             tooltip: {
                 style: {
                     padding: 10,
