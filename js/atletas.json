@@ -82,6 +82,15 @@
         "cintura": 83.50,
         "abdomem": 86.50,
         "quadril": 98.50
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 79.6,
+        "percGordura": 21,
+        "percMassaMagra": 39.3,
+        "cintura": 82.5,
+        "abdomem": 84,
+        "quadril": 94.5
       }
     ],
     "selected": false
@@ -283,6 +292,15 @@
         "cintura": 91.50,
         "abdomem": 95,
         "quadril": 103
+      },
+      {
+        "indice": "3ª Bateria",
+        "peso": 87.5,
+        "percGordura": 27.9,
+        "percMassaMagra": 34.7,
+        "cintura": 90.5,
+        "abdomem": 94,
+        "quadril": 102
       }
     ],
     "selected": false
